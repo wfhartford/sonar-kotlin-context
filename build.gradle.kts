@@ -4,6 +4,7 @@ import org.jetbrains.kotlin.gradle.dsl.KotlinJvmOptions
 plugins {
   kotlin("jvm") version "1.9.0"
   application
+  id("org.sonarqube") version "4.3.0.3225"
 }
 
 repositories {
